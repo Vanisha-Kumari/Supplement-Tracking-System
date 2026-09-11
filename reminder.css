@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+
+    background: #f4f8ff;
+
+    color: #333;
+
+    min-height: 100vh;
+
+}
+
+
+
+
+.navbar {
+
+    height: 70px;
+
+    background: #3f75b5;
+
+    padding: 0 60px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+
+
+.logo {
+
+    color: white;
+
+    font-size: 21px;
+
+    font-weight: 600;
+
+}
+
+
+.logo i {
+
+    margin-right: 8px;
+
+}
+
+
+nav {
+
+    display: flex;
+
+    gap: 30px;
+
+}
+
+
+nav a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+}
+
+
+
+
+
+.container {
+
+    width: 80%;
+
+    max-width: 900px;
+
+    margin: 50px auto;
+
+}
+
+
+.container h1 {
+
+    text-align: center;
+
+    color: #315f95;
+
+}
+
+
+.subtitle {
+
+    text-align: center;
+
+    color: #777;
+
+    margin: 8px 0 30px;
+
+}
+
+
+
+
+
+.reminder-card {
+
+    background: white;
+
+    padding: 25px;
+
+    margin-bottom: 18px;
+
+    border-radius: 18px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    box-shadow: 0 8px 25px rgba(42, 80, 120, 0.1);
+
+}
+
+
+.reminder-card h3 {
+
+    color: #315f95;
+
+    margin-bottom: 8px;
+
+}
+
+
+.reminder-card p {
+
+    color: #777;
+
+    font-size: 14px;
+
+    margin: 3px 0;
+
+}
+
+
+
+
+
+.reminder-card label {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    color: #315f95;
+
+    font-weight: 600;
+
+}
+
+
+.reminder-card input {
+
+    width: 20px;
+
+    height: 20px;
+
+    cursor: pointer;
+
+    accent-color: #3f75b5;
+
+}

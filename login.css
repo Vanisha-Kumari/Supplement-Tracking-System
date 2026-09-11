@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+
+    min-height: 100vh;
+
+    background: #f4f8ff;
+
+    color: #333;
+
+}
+
+
+
+
+
+.navbar {
+
+    height: 70px;
+
+    background: #3f75b5;
+
+    padding: 0 60px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.logo {
+
+    color: white;
+
+    font-size: 21px;
+
+    font-weight: 600;
+
+}
+
+
+.logo i {
+
+    margin-right: 8px;
+
+}
+
+
+nav {
+
+    display: flex;
+
+    gap: 30px;
+
+}
+
+
+nav a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    transition: 0.3s;
+
+}
+
+
+nav a:hover {
+
+    opacity: 0.7;
+
+}
+
+
+
+
+
+.main {
+
+    min-height: calc(100vh - 70px);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 80px;
+
+    padding: 50px;
+
+}
+
+
+
+
+
+.welcome {
+
+    width: 430px;
+
+}
+
+
+.welcome-icon {
+
+    width: 75px;
+
+    height: 75px;
+
+    background: #e4f0ff;
+
+    color: #3f75b5;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 32px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.welcome h1 {
+
+    color: #315f95;
+
+    font-size: 42px;
+
+    line-height: 1.2;
+
+    margin-bottom: 15px;
+
+}
+
+
+.welcome p {
+
+    color: #777;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+
+}
+
+
+
+
+
+.loginbox {
+
+    width: 420px;
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 22px;
+
+    box-shadow: 0 10px 35px rgba(42, 80, 120, 0.12);
+
+}
+
+
+
+
+
+.login-icon {
+
+    width: 65px;
+
+    height: 65px;
+
+    background: #e4f0ff;
+
+    color: #3f75b5;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 27px;
+
+    margin: 0 auto 15px;
+
+}
+
+
+.loginbox h2 {
+
+    text-align: center;
+
+    color: #315f95;
+
+    font-size: 27px;
+
+}
+
+
+.subtitle {
+
+    text-align: center;
+
+    color: #777;
+
+    font-size: 13px;
+
+    margin: 7px 0 25px;
+
+}
+
+
+
+
+
+label {
+
+    display: block;
+
+    color: #444;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    margin: 15px 0 7px;
+
+}
+
+
+
+
+.input-box {
+
+    height: 48px;
+
+    border: 1px solid #d5deea;
+
+    border-radius: 12px;
+
+    background: #fafcff;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 0 14px;
+
+    transition: 0.3s;
+
+}
+
+
+.input-box i {
+
+    color: #6695c9;
+
+    margin-right: 10px;
+
+}
+
+
+.input-box input {
+
+    width: 100%;
+
+    border: none;
+
+    outline: none;
+
+    background: transparent;
+
+    font-size: 14px;
+
+    color: #333;
+
+}
+
+
+.input-box:focus-within {
+
+    border-color: #3f75b5;
+
+    box-shadow: 0 0 0 3px rgba(63, 117, 181, 0.1);
+
+}
+
+
+
+/* MESSAGE */
+
+#message {
+
+    text-align: center;
+
+    font-size: 13px;
+
+    font-weight: 500;
+
+    margin-top: 15px;
+
+}
+
+
+.success {
+
+    color: #279653;
+
+}
+
+
+.error {
+
+    color: #d64545;
+
+}
+
+
+
+/* LOGIN BUTTON */
+
+.loginbox button {
+
+    width: 100%;
+
+    height: 48px;
+
+    margin-top: 20px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: #3f75b5;
+
+    color: white;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+
+.loginbox button:hover {
+
+    background: #315f95;
+
+}
+
+
+
+/* SIGN UP TEXT */
+
+.signup-text {
+
+    text-align: center;
+
+    color: #777;
+
+    font-size: 13px;
+
+    margin-top: 22px;
+
+}
+
+
+.signup-text a {
+
+    color: #3f75b5;
+
+    font-weight: 600;
+
+    text-decoration: none;
+
+}
+
+
+.signup-text a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+
+/* MOBILE */
+
+@media (max-width: 850px) {
+
+    .main {
+
+        flex-direction: column;
+
+        gap: 30px;
+
+        padding: 40px 20px;
+
+    }
+
+
+    .welcome {
+
+        width: 100%;
+
+        max-width: 420px;
+
+        text-align: center;
+
+    }
+
+
+    .welcome-icon {
+
+        margin: 0 auto 20px;
+
+    }
+
+
+    .welcome h1 {
+
+        font-size: 32px;
+
+    }
+
+
+    .loginbox {
+
+        width: 100%;
+
+        max-width: 420px;
+
+    }
+
+
+    .navbar {
+
+        padding: 0 20px;
+
+    }
+
+
+    nav {
+
+        gap: 12px;
+
+    }
+
+}

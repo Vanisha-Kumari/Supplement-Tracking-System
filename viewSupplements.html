@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Supplement History</title>
+
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <!-- Google Fonts -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="viewSupllments.css">
+
+</head>
+
+
+<body>
+
+
+
+
+    <div class="navbar">
+
+
+        <div class="logo">
+
+            <i class="fa-solid fa-capsules"></i>
+
+            Supplement Tracker
+
+        </div>
+
+
+        <nav>
+
+            <a href="dashboard.html">
+
+                <i class="fa-solid fa-house"></i>
+
+                Home
+
+            </a>
+
+
+            <a href="addSupplements.html">
+
+                <i class="fa-solid fa-plus"></i>
+
+                Add Supplement
+
+            </a>
+
+        </nav>
+
+
+    </div>
+
+
+
+
+
+    <div class="container">
+
+
+        <div class="heading">
+
+
+            <div>
+
+                <h1>
+                    Supplement History
+                </h1>
+
+                <p>
+                    View and manage your saved supplements.
+                </p>
+
+            </div>
+
+
+            <a href="addSupplements.html" class="add-btn">
+
+                <i class="fa-solid fa-plus"></i>
+
+                Add Supplement
+
+            </a>
+
+
+        </div>
+
+
+
+        <!-- Table -->
+
+        <div class="table-card">
+
+
+            <table>
+
+
+                <thead>
+
+                    <tr>
+
+                        <th>Select</th>
+
+                        <th>Supplement Name</th>
+
+                        <th>Dosage</th>
+
+                        <th>Time</th>
+
+                        <th>Frequency</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody id="supplementTableBody">
+
+                </tbody>
+
+
+            </table>
+
+
+
+            <!-- Buttons -->
+
+            <div class="actions">
+
+
+                <button id="edit">
+
+                    <i class="fa-solid fa-pen"></i>
+
+                    Edit
+
+                </button>
+
+
+                <button id="delete">
+
+                    <i class="fa-solid fa-trash"></i>
+
+                    Delete
+
+                </button>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <script src="viewSupplements.js"></script>
+
+</body>
+
+</html>

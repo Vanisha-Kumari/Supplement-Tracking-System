@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Add Supplement</title>
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <!-- Google Fonts -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="addSupplements.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- Navbar -->
+
+    <div class="navbar">
+
+        <div class="logo">
+
+            <i class="fa-solid fa-capsules"></i>
+
+            Supplement Tracker
+
+        </div>
+
+
+        <nav>
+
+            <a href="dashboard.html">
+                <i class="fa-solid fa-house"></i>
+                Home
+            </a>
+
+            <a href="viewSupplements.html">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                History
+            </a>
+
+        </nav>
+
+    </div>
+
+
+
+    <!-- Page -->
+
+    <div class="page">
+
+
+        <div class="supplement-card">
+
+
+            <div class="card-icon">
+
+                <i class="fa-solid fa-pills"></i>
+
+            </div>
+
+
+            <h2>Add Supplement</h2>
+
+
+            <p class="subtitle">
+
+                Keep track of your daily supplements
+
+            </p>
+
+
+
+            <form>
+
+
+                <!-- Name -->
+
+                <label for="name">
+                    Supplement Name
+                </label>
+
+
+                <div class="input-box">
+
+                    <i class="fa-solid fa-capsules"></i>
+
+                    <input type="text" id="name" placeholder="e.g. Vitamin C" required>
+
+                </div>
+
+
+
+                <!-- Dosage -->
+
+                <label for="dosage">
+                    Dosage
+                </label>
+
+
+                <div class="input-box">
+
+                    <i class="fa-solid fa-prescription-bottle"></i>
+
+                    <input type="text" id="dosage" placeholder="e.g. 500mg" required>
+
+                </div>
+
+
+
+                <!-- Time -->
+
+                <label for="time">
+                    Time
+                </label>
+
+
+                <div class="input-box">
+
+                    <i class="fa-regular fa-clock"></i>
+
+                    <input type="time" id="time" required>
+
+                </div>
+
+
+
+                <!-- Frequency -->
+
+                <label for="frequency">
+                    Frequency
+                </label>
+
+
+                <div class="input-box">
+
+                    <i class="fa-solid fa-repeat"></i>
+
+
+                    <select id="frequency">
+
+                        <option value="Daily">
+                            Daily
+                        </option>
+
+                        <option value="Alternate Days">
+                            Alternate Days
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+
+                <!-- Save -->
+
+                <button type="submit" id="save">
+
+                    <i class="fa-solid fa-floppy-disk"></i>
+
+                    Save Supplement
+
+                </button>
+
+
+
+                <!-- Message -->
+
+                <p id="message"></p>
+
+
+            </form>
+
+
+        </div>
+
+
+    </div>
+
+
+    <script src="addSupplements.js"></script>
+
+</body>
+
+</html>
