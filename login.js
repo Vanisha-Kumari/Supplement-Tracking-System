@@ -1,14 +1,10 @@
-
-
 const loginForm = document.querySelector("#loginForm");
 
 const message = document.querySelector("#message");
 
-
 loginForm.addEventListener("submit", function (e) {
 
     e.preventDefault();
-
 
     const username =
         document.querySelector("#username").value.trim();
@@ -16,15 +12,8 @@ loginForm.addEventListener("submit", function (e) {
     const password =
         document.querySelector("#password").value;
 
-
-
-
     const account =
         JSON.parse(localStorage.getItem("account"));
-
-
-
-
 
     if (!account) {
 
@@ -34,11 +23,7 @@ loginForm.addEventListener("submit", function (e) {
         message.className = "error";
 
         return;
-
     }
-
-
-
 
     if (
         username === account.username &&
@@ -50,15 +35,10 @@ loginForm.addEventListener("submit", function (e) {
 
         message.className = "success";
 
-
-
         localStorage.setItem(
             "loggedIn",
             "true"
         );
-
-
-
 
         setTimeout(() => {
 
