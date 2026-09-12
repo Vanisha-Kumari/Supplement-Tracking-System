@@ -105,7 +105,7 @@ signupForm.addEventListener("submit", function (e) {
     setTimeout(() => {
 
         window.location.href =
-            "login.html";
+            "index.html";
 
     }, 1000);
 
